@@ -20,7 +20,7 @@ export default function FilterForm() {
                 width: "100%",
                 margin: "10px auto"
             }}>
-                <div className="user_id_select_form filter">
+                <div className="user_id_select_form filter clearfix">
                     <label htmlFor="user_id_select">Users</label>
                     {' '}
                     <select class="form-select" aria-label="Default select example" id="user_id_select">
@@ -37,14 +37,23 @@ export default function FilterForm() {
                         <option value="10">10</option>
                     </select>
                 </div>
-                <div className="form-check filter" style={{
+                <div className="todo_status_select_form filter clearfix">
+                    <label htmlFor="todo_status_select">Todo Status</label>
+                    {' '}
+                    <select class="form-select" aria-label="Default select example" id="todo_status_select">
+                        <option selected value="all">All</option>
+                        <option value="1">Completed</option>
+                        <option value="0">Pending</option>
+                    </select>
+                </div>
+                {/* <div className="form-check filter" style={{
                     paddingTop: "5px",
                 }}>
                     <input className="form-check-input" type="checkbox" value="" id="show_completed_task" />
                     <label className="form-check-label" htmlFor="show_completed_task">
                         completed
                     </label>
-                </div>
+                </div> */}
             </div>
             
         </form>
