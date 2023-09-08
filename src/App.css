@@ -64,8 +64,20 @@
   vertical-align: middle;
 }
 
-.user_id_select_form, .form-check {
+.user_id_select_form, .form-check, .todo_status_select_form {
   display: inline-block;
+}
+
+.todo_status_select_form {
+  width: 200px;
+}
+.todo_status_select_form label {
+  width: 50%;
+  float: left;
+  padding-top: 5px;
+}
+.todo_status_select_form select {
+  width: 50%;
 }
 
 .other_filters .filter {

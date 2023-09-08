@@ -1,0 +1,62 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "Learn React JS",
+        "completed": false
+      },
+      {
+        "userId": 1,
+        "id": 2,
+        "title": "Learn how to create a Single Page Application(SPA).",
+        "completed": false
+      },
+      {
+        "userId": 1,
+        "id": 3,
+        "title": "Watch any science fiction.",
+        "completed": false
+      },
+      {
+        "userId": 1,
+        "id": 4,
+        "title": "Play cricket in any ground.",
+        "completed": true
+      },
+      {
+        "userId": 1,
+        "id": 5,
+        "title": "Remmeber to daily thank and worship god.",
+        "completed": true
+      },
+      {
+        "userId": 1,
+        "id": 6,
+        "title": "Read anima comics in english.",
+        "completed": false
+      },
+      {
+        "userId": 1,
+        "id": 7,
+        "title": "Try to learn any new skill.",
+        "completed": false
+      },
+      {
+        "userId": 1,
+        "id": 8,
+        "title": "Complete react videos.",
+        "completed": true
+      },
+      {
+        "userId": 1,
+        "id": 9,
+        "title": "Start learning nodejs and create a simple todo task manger app using node.",
+        "completed": false
+      },
+      {
+        "userId": 1,
+        "id": 10,
+        "title": "Buy fruits and vegetables from market.",
+        "completed": true
+      }
+]
